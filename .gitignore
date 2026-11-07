@@ -1,0 +1,11 @@
+node_modules/
+.profiles/
+# Экспорт и отчёты могут иметь произвольные имена.
+*.json
+!/package.json
+!/package-lock.json
+*.tmp
+.music-transfer.lock
+.music-transfer.lockdir/
+.DS_Store
+.env*
